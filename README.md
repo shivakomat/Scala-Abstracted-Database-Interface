@@ -1,4 +1,4 @@
-# Scala Database Interface with Postgresql platform
+# Scala database interface with postgresql platform
 
 ## Purpose
 
