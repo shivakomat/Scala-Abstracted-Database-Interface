@@ -1,12 +1,14 @@
 # Scala database interface with postgresql platform
 
+###### Shivakanth Komatreddy
+
 ## Documentation
 
 #### Usecase
 Provide basic foundation for postgresql database interface with Scala
 
 The interface is built to work with postgresql JDBC and provide common database functionality to the users.
-Users can extend the funtionality from the DabaseManager.scala where the basics of database communication is provided.
+Users can extend the funtionality from the DatabaseManager.scala where the basics of database communication is provided.
 
 
 #### DBConnections.scala
@@ -36,11 +38,11 @@ executes sql statements
 returns a Boolean, true or false for sucess or non-sucess results
 
 ###### executeBatch(data:Map[String,String],tableDef:DBTableDef):Boolean
-executes batchs of data at once. 
+executes batches of data at once. 
 
 takes parameters, data:Map[String,String] to represent an Object with fields and its values in hash map format
 
 returns a Boolean, true or false for sucess or non-sucess results
 
-### Developed by
-### Shivakanth Komatreddy
+
+
