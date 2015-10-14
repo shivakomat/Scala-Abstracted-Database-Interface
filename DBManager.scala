@@ -1,5 +1,3 @@
-package com.martines.model.db
-
 import java.sql._
 import scala.util._
 
@@ -23,7 +21,7 @@ sealed class RsIterator(rs: ResultSet) extends Iterator[ResultSet] {
 }
 
 abstract class BasicRDBManager{
-  private val dbCon = PostgresqlConnection("localhost","5432","central_db","Komatreddy")
+  private val dbCon = PostgresqlConnection("hostname","port","db_name","username")
 
   protected def getSchema(tablename:String):DBTableDef={
     val conn = dbCon.conn
