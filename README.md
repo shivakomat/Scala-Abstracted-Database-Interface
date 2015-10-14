@@ -1,7 +1,8 @@
 # Scala database interface with postgresql platform
 
-## Purpose
+## Documentation
 
+#### Usecase
 Provide basic foundation for postgresql database interface with Scala
 
 The interface is built to work with postgresql JDBC and provide common database functionality to the users.
