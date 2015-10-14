@@ -44,5 +44,11 @@ takes parameters, data:Map[String,String] to represent an Object with fields and
 
 returns a Boolean, true or false for sucess or non-sucess results
 
+#### Settings
+
+provided a postgresql jar file version 9.4
+
+documentation - http://www.postgresql.org/docs/9.4/static/index.html
+
 
 
