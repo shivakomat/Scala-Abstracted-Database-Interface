@@ -15,7 +15,7 @@ BasicDatabaseConnection interface. Please check the DBTraits.scala for more info
 
 #### DBManager.scala
 
-Provides basic funtionality to communicate with the database, currently this file is set soley tested to work with Postgresql only, later I will be try to add.
+Provides basic funtionality to communicate with the database.
 
 ###### getSchema(tablename:String):DBTableDef
 table definition schema of any table from the database by passing the table name in lowercase NOT uppercase
