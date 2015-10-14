@@ -1,5 +1,3 @@
-package com.martines.model.db
-
 import java.sql._
 import java.util.Properties
 
