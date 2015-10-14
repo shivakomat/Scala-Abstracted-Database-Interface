@@ -1,7 +1,3 @@
-package com.martines.model.db
-
-import com.martines.model.util._
-
 trait BasicDatabaseConnection{  
   def conn:java.sql.Connection 
 }
