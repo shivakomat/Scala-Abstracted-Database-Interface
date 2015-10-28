@@ -1,6 +1,6 @@
 # Scala database interface with postgresql platform
 
-###### developed by Shivakanth Komatreddy
+###### developed by Shiva
 
 ## Documentation
 
